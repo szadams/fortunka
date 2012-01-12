@@ -1,4 +1,4 @@
-# Fortunka\n\n
+# Fortunka
 
 Aplikacja wyświetlająca cytaty/sentencje.
 
