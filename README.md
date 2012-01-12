@@ -1,4 +1,6 @@
-# My Awesome Rails 3.1 App\n\n
+# Fortunka\n\n
+
+Aplikacja wyświetlająca cytaty/sentencje.
 
 ## Uruchamianie:
 rails s -p NUMER_PORTU
