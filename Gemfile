@@ -41,3 +41,9 @@ gem "execjs"
 gem "therubyracer"
 gem "wirble", :group => :development
 gem "hirb", :group => :development
+
+gem 'omniauth'
+gem 'omniauth-github'
+
+gem 'mongoid', '~> 2.3'
+gem 'bson_ext', '~> 1.4'
