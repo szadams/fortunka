@@ -9,7 +9,7 @@ module LayoutHelper
   def show_title?
     @show_title
   end
-  def navigation(*data)
+  def nav(*data)
     content tag :ul do
       data.map do |link, name|
         content_tag :li, link_to("#{name}", link),
