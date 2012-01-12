@@ -2,7 +2,12 @@
 
 Aplikacja wyświetlająca cytaty/sentencje.
 
-## Uruchamianie:
-rails s -p NUMER_PORTU
 
-np. rails s -p 3000
+## Przed uruchomieniem:
+
+bundle install --path=$HOME/.gems
+rake db:migrate
+
+## Uruchamianie:
+
+rails s -p 3000
