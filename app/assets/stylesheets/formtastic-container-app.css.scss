@@ -1,0 +1,30 @@
+.formtastic .input .label {
+  padding: 0;
+  text-transform: none;
+  background-color: #FFF;
+  color: #000;
+  width: 100%;
+}
+
+label {
+  float: none;
+  text-align: left;
+}
+
+form .input {
+  margin-left: 0;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"] {
+  padding: 0.25em;
+}
+
+.formtastic .buttons {
+  overflow: hidden;
+  padding-left: 0%;
+}
+
+.label {
+  font-size: 100%;
+  margin-bottom: 1ex;
+}

@@ -1,0 +1,24 @@
+<% title "All fortunes" %>
+
+<% @fortunes.each do |fortune| %>
+<article class="index">
+  <div class="attribute">
+    <span class="name">Quotation</span>
+    <span class="value"><%= fortune.quotation %></span>
+  </div>
+    <div class="attribute">
+    <span class="name">Source</span>
+    <span class="value"><%= fortune.source %></span>
+  </div>
+    <div class="links">
+    <%= link_to 'Show', fortune, class: "btn" %>
+    <%= link_to 'Edit', edit_fortune_path(fortune), class: "btn" %>
+    <%= link_to 'Destroy', fortune, confirm: 'Are you sure?',
+          method: :delete, class: "btn danger" %>
+  </div>
+</article>
+<% end %>
+
+<div class="link">
+  <%= link_to 'New Fortune', new_fortune_path, class: "btn primary" %>
+</div>
