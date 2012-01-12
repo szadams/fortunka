@@ -5,7 +5,7 @@ Aplikacja wyświetlająca cytaty/sentencje.
 
 ## Przed uruchomieniem:
 
-bundle install --path=$HOME/.gems 
+bundle install --path=$HOME/.gems <br />
 rake db:migrate
 
 ## Uruchamianie:
